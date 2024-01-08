@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORMS</title>
+    <style>
+      body {
+        background-color: aqua;
+      }
+      h1,
+      u {
+        color: rgb(224, 235, 22);
+      }
+
+      table {
+        border-style: solid;
+        border-color: rgb(214, 241, 10);
+        padding: 0.5cm;
+        border-radius: 30px;
+        padding: 20px;
+        background: transparent;
+        backdrop-filter: blur(20px);
+      }
+    </style>
+    <link rel="icon" href="c:\Users\manee\OneDrive\Desktop\asr logo.png" />
+  </head>
+
+  <body text="white">
+    <center>
+      <u>
+        <h1>Registration form🚀</h1>
+      </u>
+      <hr color="yellow" />
+      <table>
+        <form class="form">
+          <tr>
+            <td><label>Name:</label></td>
+            <td><input type="text" placeholder="Name" /></td>
+          </tr>
+          <tr>
+            <td><label>Email:</label></td>
+            <td><input type="email" placeholder="Email" /></td>
+          </tr>
+
+          <tr>
+            <td><label>Password:</label></td>
+            <td><input type="password" placeholder="Password" /></td>
+          </tr>
+          <tr>
+            <td><label>Number:</label></td>
+            <td><input type="number" max="9999999999" /></td>
+          </tr>
+
+          <tr valign="top">
+            <td><label>Address:</label></td>
+            <td>
+              <textarea rows="5" cols="10"></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label>Gender</label></td>
+            <td>
+              <input type="radio" name="gender" />Male
+              <input type="radio" name="gender" />Female
+              <input type="radio" name="gender" />Others
+            </td>
+          </tr>
+          <tr>
+            <td><label>YOP:</label></td>
+            <td>
+              <select>
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="accept" required />Accept</td>
+          </tr>
+
+          <tr>
+            <td><label>Date of Birth:</label></td>
+            <td><input type="date" /></td>
+          </tr>
+          <tr>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td></td>
+
+            <td>
+              <input type="submit" value="login" />
+              <input type="reset" value="clear" />
+            </td>
+          </tr>
+        </form>
+      </table>
+    </center>
+  </body>
+</html>
