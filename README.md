@@ -1,3 +1,3 @@
 # html5-Forms
 
-This file contain html codes wich are for creating forms 
+This file contain html codes and css  which are for creating forms 
