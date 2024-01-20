@@ -1,3 +1,3 @@
 # html5-Forms
 
-the file contains html and css code : this is a fantatic tool to learn >>>>
+this is a html and css code for creating forms attractively...
